@@ -1,7 +1,66 @@
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/202/original/pexels-shottrotter-2249964-4.jpg?1719184711);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 h1 {
   text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  padding: 7px 0;
+  font-size: 18px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 5px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto 30px;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: #d3f0cf;
+  border: 1px solid #c2e6be;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+  padding: 20px 0;
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.8;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 48px;
 }
 
 footer {
   text-align: center;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.9);
 }
