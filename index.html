@@ -11,25 +11,36 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select name="" id="">
+      <select name="" id="city">
         <option value="">Select a city</option>
-        <option value="">London</option>
-        <option value="">New York</option>
-        <option value="">Auckland</option>
+        <option value="Asia/Istanbul">Istanbul</option>
+        <option value="America/Mexico_City">Mexico City</option>
+        <option value="America/New_York">New York</option>
+        <option value="Antarctica/South_Pole">South Pole</option>
       </select>
-      <div class="city" id="los-angeles">
-        <div>
-          <h2>Los Angeles ☀️</h2>
-          <div class="date">August 15, 2022</div>
+
+      <div id="cities">
+        <div class="city" id="los-angeles">
+          <div>
+            <h2>Los Angeles</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
         </div>
-        <div class="time">1:48:15 <small>AM</small></div>
-      </div>
-      <div class="city" id="sydney">
-        <div>
-          <h2>Sydney 🌊</h2>
-          <div class="date">August 15, 2022</div>
+        <div class="city" id="sydney">
+          <div>
+            <h2>Sydney</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
         </div>
-        <div class="time">1:48:15 <small>AM</small></div>
+        <div class="city" id="london">
+          <div>
+            <h2>London</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
+        </div>
       </div>
     </div>
     <footer>
